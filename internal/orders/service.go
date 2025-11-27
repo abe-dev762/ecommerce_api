@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/jackc/pgx/v5"
 	repo "github.com/abe-dev762/ecommerce_api/internal/adapters/postgresql/sqlc"
+	"github.com/jackc/pgx/v5"
 )
 
 var (
@@ -71,7 +71,6 @@ func (s *svc) PlaceOrder(ctx context.Context, tempOrder createOrderParams) (repo
 			return repo.Order{}, err
 		}
 
-		// Challenge: Update the product stock quantity
 	}
 
 	tx.Commit(ctx)

@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/abe-dev762/ecommerce_api/json"
+	"github.com/abe-dev762/ecommerce_api/internal/json"
 )
 
 type handler struct {

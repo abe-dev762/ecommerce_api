@@ -5,8 +5,8 @@ import (
 	"log/slog"
 	"os"
 
+	"github.com/abe-dev762/ecommerce_api/internal/env"
 	"github.com/jackc/pgx/v5"
-	"github.com/sikozonpc/ecom/internal/env"
 )
 
 func main() {
