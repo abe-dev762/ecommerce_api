@@ -1,5 +1,4 @@
 package products
-package products
 
 import (
 	"log"
